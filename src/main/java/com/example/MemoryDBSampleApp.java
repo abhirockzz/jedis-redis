@@ -61,7 +61,7 @@ public class MemoryDBSampleApp {
             jedis.zadd(topPlayersSortedSet, Math.random()*10, "player-"+i);
         }
 
-        System.out.println("fetching "+ topN+" players!");
+        System.out.println("fetching top "+ topN+" players!");
 
         List<Tuple> topPlayers = jedis.zrevrangeWithScores(topPlayersSortedSet, 0, (topN-1));
         for(Tuple topPlayer: topPlayers){
