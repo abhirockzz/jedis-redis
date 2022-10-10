@@ -1,5 +1,5 @@
-export MEMORYDB_ENDPOINT_URL=
-export MEMORYDB_USERNAME=
-export MEMORYDB_PASSWORD=
+export MEMORYDB_ENDPOINT_URL=foo
+export MEMORYDB_USERNAME=bar
+export MEMORYDB_PASSWORD=baz
 
 mvn compile && mvn exec:java
