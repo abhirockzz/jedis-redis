@@ -1,4 +1,4 @@
-package com.example;
+package tutorial.buildon.aws;
 
 import java.util.HashSet;
 import java.util.List;

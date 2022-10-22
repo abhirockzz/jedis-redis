@@ -33,7 +33,7 @@
 		<artifactId>exec-maven-plugin</artifactId>
 		<version>1.6.0</version>
 		<configuration>
-			<mainClass>com.example.MemoryDBSampleApp</mainClass>
+			<mainClass>tutorial.buildon.aws.MemoryDBSampleApp</mainClass>
 		</configuration>
 </plugin>
         <plugin>
